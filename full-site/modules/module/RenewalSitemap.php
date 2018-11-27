@@ -132,7 +132,7 @@ function renewalSitemap()
 		if (count($data_xml)!=count($data_xml_) || key($data_xml)!=key($data_xml_))
 		{
 							
-			require_once(dirname(__FILE__)."/../sitemap/common.inc.php");
+			require_once(dirname(__FILE__)."/../../sitemap/common.inc.php");
 
 			set_time_limit(0);
 			ini_set('memory_limit', '64M');
